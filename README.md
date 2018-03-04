@@ -1,4 +1,4 @@
-# docker-mysql
+# mysql database in docker
 
 ## clone
 
