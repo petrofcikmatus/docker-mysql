@@ -13,12 +13,6 @@ git clone git@github.com:petrofcikmatus/mysql.git mysql
 127.0.0.1 mysql
 ```
 
-## build
-
-```
-docker-compose build
-```
-
 ## run
 
 ```

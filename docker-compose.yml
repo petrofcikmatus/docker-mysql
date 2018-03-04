@@ -5,7 +5,7 @@ services:
    ports:
      - 3306:3306
    volumes:
-     - var/lib/mysql:/var/lib/mysql
+     - ./var/lib/mysql:/var/lib/mysql
    environment:
      MYSQL_DATABASE: db_name
      MYSQL_USER: db_user
