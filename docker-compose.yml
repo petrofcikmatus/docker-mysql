@@ -7,7 +7,7 @@ services:
    volumes:
      - var/lib/mysql:/var/lib/mysql
    environment:
-     MYSQL_DATABASE: dictionary
-     MYSQL_USER: docker_username
-     MYSQL_PASSWORD: docker_password
+     MYSQL_DATABASE: db_name
+     MYSQL_USER: db_user
+     MYSQL_PASSWORD: db_pass
      MYSQL_ROOT_PASSWORD: root
