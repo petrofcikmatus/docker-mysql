@@ -25,14 +25,20 @@ docker-compose up -d
 mysql://db_user:db_pass@mysql:3306/db_name
 ```
 
-## use
+## connect with mysql-client
 
 ```
+mysql -h mysql -u root -p
+```
+
+## use
+
+```sql
 DROP TABLE 'users' -- or something productive :)
 ```
 
 ## stop
 
-```
+```bash
 docker-compose down
 ```
